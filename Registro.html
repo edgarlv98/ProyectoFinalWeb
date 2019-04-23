@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registro</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <img src="Imagenes/logoLiga.png" id="logoLiga">
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a>Equipos</a></li>
+            <li>Jugadores</li>
+            <li><a href="Login.html">Iniciar Sesion</a></li>
+            <li><a href="Registro.html">Registro</a></li>
+        </ul>
+    </nav>
+    <h1 id="hlogin">Registro</h1>
+    <fieldset id="fieldReg">
+    <div id="Registro">
+        <label for="nombre" id="labLI">Nombre</label><br>
+        <input type="text" id="nombre" class="inLI">
+        <span id="name_error" class="error hidden">Favor de colocar un nombre</span><br><br>
+
+        <label for="appelido">Apellido</label><br>
+        <input type="text" id="apellido" class="inLI">
+        <span id="apellido_error" class="error hidden">Favor de colocar un apellido</span><br><br>
+
+        <label for="contraseña">Constraseña</label><br>
+        <input type="password" id="contraseña" class="inLI">
+        <span id="contraseña_error" class="error hidden">Favor de colocar una contraseña</span><br><br>
+
+        <label for="contraseñaconf">Confirmar constraseña</label><br>
+        <input type="password" id="contraseñaconf" class="inLI">
+        <span id="contraseñaconf_error" class="error hidden">La contraseña no coincide</span>
+
+        <label for="country">
+                <p>Pais</p>
+            </label>
+            <select>
+                <option id="country" value="0" selected disabled hidden>Escoge un pais</option>
+                <option value="1" id="country">Mexico</option>
+                <option value="2" id="country">USA</option>
+                <option value="3" id="country">Canada</option>
+            </select>
+            <span id="country_error" class="error hidden">Elige un pais</span>
+
+        <label for="gender">
+                <p>Gender</p>
+            </label>
+            <input id="radio_m" type="radio" name="Gender" value="male">Masculino<br>
+            <input id="radio_f" type="radio" name="Gender" value="female">Femenino
+            <span id="gender_error" class="error hidden">Escoge un genero</span><br><br>
+
+        <button id="btnRegistro">Registrarse</button>
+    </div>
+    </fieldset>
+    <script src="JavaScript/Registro.js"></script>
+</body>
+</html>
