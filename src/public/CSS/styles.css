@@ -85,17 +85,17 @@ body{
     margin: 0px;
     padding: 0px;
     margin-top: -50px;
-    margin-left: 150px;
     /*margin-left: 100px;
     padding-left: 520px;*/
 }
 
 #fieldReg{
-    width: 600px;
-    height: 400px;
+    width: 200px;
+    height: 100px;
     margin: 50px;
     padding: 100px;
-    margin-left: 350px;
+    margin-left: 550px;
+    margin-top: -3px;
 }
 
 .selected{

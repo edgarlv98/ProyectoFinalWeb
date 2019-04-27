@@ -1,0 +1,42 @@
+<%- layout('layouts/main.ejs') %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Liga mx</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <a href="/profileAdmin"><img src="/Imagenes/logoLiga.png" id="logoLiga"></a>
+    <nav>
+        <ul id="menu">
+            <li></li><li></li><li></li><li></li><li>
+            </li><li></li><li></li><li></li><li></li>
+            <li></li><li></li><li></li>
+            <li id="home"><a href="/profileAdmin">Home</a></li>
+            <li id="contacto"><a href="/consultar/jugadores/admin">Consultar Jugadores</a></li>
+            <li id="login"><a href="/consultar/equipos/admin">Consultar Equipos</a></li>
+            <li><a href="/editar/jugadores">Editar Jugadores</a></li>
+            <li><a href="/editar/equipos">Editar Equipos</a></li>
+            <li id="registro"><a href="/logout">Salir</a></li>
+        </ul>
+    </nav>
+
+    <h1>CONSULTAR JUGADORES ADMIN</h1>
+
+    <footer id="info" class="foot">
+        <div id="">
+            <h4>Información</h4>
+            <p class="foot">Edgar López Villarreal A01039505</p>
+            <p class="foot">Noe Flores A0</p>
+        </div>
+    </footer>
+</body>
+</html>
